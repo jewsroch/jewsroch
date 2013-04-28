@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+		<title>Kate and Chad's Wedding!</title>
+		<link href="css/main.css" rel="stylesheet" type="text/css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+		<script src="js/cufon-yui.js" type="text/javascript"></script>
+		<script src="js/champagne_300-champagne_700.font.js" type="text/javascript"></script>
+		<script type="text/javascript">
+					Cufon.replace('h1, h2, h3, .nav', {hover: true});
+		</script>
+		<script type="text/javascript" src="js/prototype.lite.js"></script>
+		<script type="text/javascript" src="js/moo.fx.js"></script>
+		<script type="text/javascript" src="js/moo.fx.pack.js"></script>
+		<script type="text/javascript">
+		//the main function, call to the effect object
+		/*
+		function init(){
+			var stretchers = document.getElementsByClassName('stretcher'); //div that stretches
+			var toggles = document.getElementsByClassName('tab'); //h3s where I click on
+			//accordion effect
+			var myAccordion = new fx.Accordion(
+				toggles, stretchers, {opacity: false,  height: true, duration: 400, transition: fx.sineInOut}
+			);
+			//hash functions
+			var found = true; // if true, accordion starts closed on load else if false first one starts open on load
+			toggles.each(function(h3, i){
+			var div = Element.find(h3, 'nextSibling'); //element.find is located in prototype.lite
+				if (window.location.href.indexOf(h3.title) > 0) {
+					myAccordion.showThisHideOpen(div);
+					found = true;
+				}
+			});
+			if (!found) myAccordion.showThisHideOpen(stretchers[0]);
+		}
+		*/
+		
+		function init(){
+				
+				var stretchers = document.getElementsByClassName('stretcher'); //div that stretches
+				var toggles = document.getElementsByClassName('tab'); //h3s where I click on
+				//accordion effect
+				var myAccordion = new fx.Accordion(
+					toggles, stretchers, {opacity: true, height: true, duration: 300}
+				);
+				//hash functions
+				var found = false;
+				toggles.each(function(h3, i){
+					var div = Element.find(h3, 'nextSibling'); //element.find is located in prototype.lite
+					if (window.location.href.indexOf(h3.title) > 0) {
+						myAccordion.showThisHideOpen(div);
+						found = true;
+					}
+				});
+				if (!found) myAccordion.showThisHideOpen(stretchers[0]);
+			}
+		</script>
+				<script type="text/javascript" src="js/mktooltip.js"></script>
+
+		    <!--[if IE]>
+<style>#stretcher-right ul{
+  margin:0;
+  position:relative;
+}
+</style>
+<![endif]-->
+	</head><!-- ====== Body Content ====== -->
+	<body>
+		<div id="maincontainer">			
+			<!-- ====== Header ====== -->
+			<div id="header">
+
+				<div id="bannerLeft"><a href="index.html" title="Home" alt="Home Page"><img src="images/wedding.png" alt="Kate and Chad's Wedding" /></a>
+				</div>
+
+				<div id="bannerRight"><img src="images/date.png" alt="Wedding Date" />
+					<h3><a href="contact.html" title="Contact us" alt="Contact Us">contact us</a> &nbsp;|&nbsp; <a href="directions.html" title="Directions and Maps" alt="Directions">directions</a> &nbsp;|&nbsp; <a href="registry.html" title="Registry" alt="Registry">registry</a></h3>
+				</div>
+			</div>		
+
+			<!-- ====== Content ====== -->
+			<div id="content">
+				<span class="spacer">
+					<div id="blueBorders">
+					</div>
+					<div id="wrapper">
+						<div id="left">
+							<div class="tab">
+								<h3 title="leland" class="highlight"><a href="javascript:;">leland</a></h3>
+							</div>
+							<div class="tab">
+								<h3 title="glenarbor" class="highlight"><a href="javascript:;">glen arbor</a></h3>
+							</div>
+							<div class="tab border">
+								<h3 title="traversecity" class="highlight"><a href="javascript:;">traverse city</a></h3>
+							</div>
+							
+							<div class="tab">
+								<h3 title="winetasting"><a href="javascript:;">wine tasting</a></h3>
+							</div>
+							<div class="tab">
+								<h3 title="boating"><a href="javascript:;">boating</a></h3>
+							</div>				
+							<!--<div class="tab">
+								<h3 title="beaches"><a href="javascript:;">beaches</a></h3>
+							</div>	-->					
+							<div class="tab">
+								<h3 title="outdoors"><a href="javascript:;">outdoors</a></h3>
+							</div>
+							<div class="tab">
+								<h3 title="mackinac"><a href="http://www.mackinacisland.org/">mackinac island</a></h3>
+							</div>						
+						<!--	<div class="tab">
+								<h3 title="shopping"><a href="javascript:;">shopping</a></h3>
+							</div> -->						
+							
+							<br />
+						</div>
+						<div id="right">
+							<div id="content2">
+							  	<div class="stretcher">
+									<div id="stretcher-left">
+										<img src="images/lelandharbor.jpg" />
+										<span class="small">by Flickr user: <a href="http://www.flickr.com/photos/cedarbend/">CedarBendDrive</a></span>
+										<p></p>
+										<p></p>
+										<h2><a href="http://www.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Leland,+MI&sll=44.897496,-85.98537&sspn=0.307403,0.582275&ie=UTF8&hq=&hnear=Leland,+Leelanau,+Michigan&ll=45.023068,-85.759964&spn=0.306732,0.582275&z=11" alt="Leland Michigan Map" title="Leland Michigan Map">Leland, Michigan</a></h2>
+										<p>Leland is a small town in Northern Michigan. Located in the narrows between Lake Michigan and Lake Leelanau, Leland is a great place to visit and "get away!"  Kate's family has spent many vacations here and introduced Chad and his family to it.  It quickly becomes a favorite of everyone who visits!</p>          
+                 					</div>
+							    	<div id="stretcher-right">
+                       					<h3>Favorite Dining</h3>
+										<ul class="dining">
+											<li><a href="http://www.leelanau.com/bluebird/" >The Bluebird</a> - A Leland icon! Great cinnamon rolls! Also try the Early Bird for breakfast!</li>
+											<li><a href="http://www.sissonsmainstreet.com/" >Sissons on Main St.</a> - Great Coffee and muffins!  Always a nice morning stop.</li> 
+											<li><a href="http://www.stonehousebread.com/index.html" >Stonehouse Bread Company</a> - The BEST Scones!! Another great breakfast stop.</li>
+											<li><a href="http://www.lelandharborhouse.com/" >Harbor House Ice Cream</a> - Great ice cream in the heart of Leland!</li>
+										</ul>
+										<h3>Favorite Places</h3>
+										<ul class="dining">
+											<li><a href="http://www.lelandmi.com/">Visit Leland</a> - The official Leland Tourism Site.  Great information and a nice site.  (A lot of information here, came from this site.)</li>
+											<li><a href="http://www.leelanau.com/cheese/">Cheese Shanty</a> - Local Cheese shop in the historic district of Leland, "Old Fishtown".  Great cheese, Great wine, Great sandwiches!</li>
+											<li><a href="http://www.brendajclark.com/" >Brenda J Clark</a> - This local artist paints local sights in spectacular colors.  Her studio is in the heart of Leland and a must-see.</li>
+										</ul>
+									</div>	
+                  				</div>
+                  				<div class="stretcher">
+									<div id="stretcher-left">
+										<img src="images/boomchunka.jpg" />
+										<p></p>
+										<h2><a href="http://www.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=glen+arbor,+MI&sll=37.0625,-95.677068&sspn=43.799322,74.53125&ie=UTF8&hq=&hnear=Glen+Arbor+Township,+Leelanau,+Michigan&z=11" alt="Glen Arbor Map" title="Glen Arbor Map">Glen Arbor, Michigan</a></h2>
+										<p>Located thirty minutes south of Leland, this town is home to some northern Michigan must-dos.</p>          
+                 					</div>
+									<div id="stretcher-right">
+										<h3>Favorite Dining</h3>
+										<ul class="dining">
+											<li><a href="http://www.artsglenarbor.com/" >Art's Tavern</a> - Great Atmosphere and the best corn-beef hash anywhere. (Go here for breakfast!)</li>
+											<li><a href="http://maps.google.com/maps?q=restaurants&hl=en&cd=1&ei=pd8ES9T5HJWejgObkLCDDA&sll=44.895039,-85.979004&sspn=0.032165,0.066175&ie=UTF8&view=map&cid=16449169034470009477&ved=0CA8QpQY&hq=restaurants&hnear=&ll=44.898581,-85.990891&spn=0.008041,0.016544&z=16&iwloc=A">Boondock's Restaurant</a> - Very casual outdoor dining.<br/><!--<span class="address">5858 Manitou Glen Arbor, MI</span>--></li> 
+											<li><a href="http://www.cherryrepublic.com/" >Cherry Republic</a> - Everything Cherries!  Try the boom-chunka ice cream... what a challenge! (pictured left)</li>
+											<!--<li><a href="http://www.coffeeguys.com/">Leelanau Coffee Roasting Co.</a> - Always need a good coffee place.</li>-->
+											<li><a href="http://www.dune-dogs.com/">Dune Dogs</a> - We haven't actually had them yet, but hot dogs are always exciting!</li>
+										</ul>
+										<h3>Favorite Places</h3>
+
+										<ul class="dining">
+											<li><a href="http://www.beckythatcherdesigns.com/">Becky Thatcher</a> - Local jewelry designer/maker.</li>
+											<li><a href="http://www.synchronicitygallery.com/">Synchronicity Gallery</a> - Great art gallery in the heart of Glen Arbor.</li>
+											<li><a href="http://www.cottagebooks.com/">Cottage Books</a> - A log cabin of books accross from Cherry Republic.  Great place to take a break!</li>
+										</ul>
+									</div>
+								</div>
+								
+				               <div class="stretcher">
+									<div id="stretcher-left">
+										<img src="images/traversecity.jpg" />
+										<span class="small">by: www.traversecity4sale.com</span>
+										<p></p>
+										<p></p>
+										<h2><a href="http://www.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Traverse+City,+MI&sll=45.023068,-85.759964&sspn=0.306732,0.582275&ie=UTF8&hq=&hnear=Traverse+City,+Grand+Traverse,+Michigan&z=13" alt="Traverse City Map" title="Traverse City Map">Traverse City, Michigan</a></h2>
+										<p>The largest city in the area, Traverse City is located about 45 minutes from Leland.  Here you'll find every major hotel and restaurant as well as a wide variety of entertainment options. <!--<a href="http://en.wikipedia.org/wiki/M-22_(Michigan_highway)">M-22</a>.--></p>          
+                 					</div>
+										<div id="stretcher-right">
+											<h3>Favorite Dining</h3>
+											<ul class="dining">
+												<li><a href="http://www.poppycockstc.com">Poppycock's</a> - A "casual, contemporary" restaurant in downtown TC.  One of Kate's family's favorites.</li>
+												<li><a href="http://www.rightbrainbrewery.com">Right Brain Brewery</a> - This brewery is fairly new and has gotten great reviews for their food and beer.</li>
+												<li><a href="http://www.pleasantonbakery.com/">Pleasanton Bakery</a> - Brick-oven organic bakery in the Traverse Commons.  Amazing Parmesan Olive Herb bread.</li>
+												<li><a href="http://www.highergroundstrading.com/">Higher Grounds Trading</a> - Free Trade Organic coffee shop in the <a href="http://www.thevillagetc.com/">Traverse Commons</a>.</li>							
+											</ul>
+											<h3>Favorite Places</h3>
+											<ul class="dining">
+												<li><a href="http://www.interlochen.org/" >Interlochen Arts Camp</a> - Located about 30 minutes south, this arts camp draws national acts and hosts performances by young musicians every summer.</li>
+												<li><a href="http://www.visittraversecity.com" >Visit Traverse City</a> - Official Traverse City tourism website.  Lots of information about the area and the city.</li>
+											</ul>
+										</div>
+									</div>				                   						
+
+ 								<div class="stretcher">
+									<div id="stretcher-left">
+										<img src="images/winetasting.jpg" alt="lmawby" title="lmawby" />
+										<!--<span class="small">by Flickr user: <a href="http://www.flickr.com/photos/michaelsphotos/">mstephens7</a></span>-->
+										
+										<h3><a href="http://www.lpwines.com/winemap/" >Leelanau Peninsula Wine Trail</a></h3>
+										<p>Some of the best wines in the area are within a 1/2 hour drive of Leland!  Most offer free tastings too!</p>
+										<h3><a href="http://www.wineriesofoldmission.com/" >Old Mission Peninula Wine Trail</a></h3>
+										<p>On the other side of Grand Traverse bay, the Old Mission Wineries offer some amazing views and more fantastic wine!</p>
+									</div>
+									<div id="stretcher-right">
+										<h2>Favorites Wineries</h2>
+										<h3>Leelanau Peninsula</h3>
+										<ul class="wine">
+											<li><a href="http://www.lmawby.com/" >L. Mawby</a> - The BEST Sparkling wine in the area.  Amazing wine - Kate and Chad's favorite in the area!</li> 
+											<li><a href="http://www.leftfootcharley.com/" >Left Foot Charlie</a> - Our other favorite!  A new winery in Traverse specializing in what Michigan does best - WHITE Wine!</li>
+											<li><a href="http://www.boskydel.com/" >Boskydel</a> - This is a quirky small winery owned by a 79 year old man with quite a personality.  The Wine is fine, but the experience is amazing!</li>
+
+										</ul>
+										<h3>Old Mission Peninsula</h3>
+										<ul class="wine">
+											<li><a href="http://www.2lwinery.com/" >2 Lads</a> - New winery that is getting great reviews.</li> 
+											<li><a href="http://www.peninsulacellars.com/" >Peninsula Cellars</a> - Our favorite on Old Mission.  The tasting room is an old school house!</li>
+											<li><a href="http://www.cgtwines.com" >Chateau Grand Traverse</a> - One of the best views of the lake around!</li>
+											
+										</ul>
+									</div>	
+								</div>
+								
+								<div class="stretcher">
+									<div id="stretcher-rightboating">
+										<h2>Boating</h2>
+										<p>In Northern Michigan you are never far from the water.  Lake Michigan is the largest lake in the area but many other smaller lakes and rivers offer a number of boating and watersport activities during the summer.  Lake Leelanau is a beautiful lake for sailing!  Glen Lake is great for sailing or skiing.  The Platte or Crystal Rivers offer some fun canoeing and kayaking.</p>
+										<ul class="boating">
+											<li><a href="http://www.canoemichigan.com/" >Riverside Canoe</a> - Canoe or Kayak the Platte river!</li>
+											<li><a href="http://www.narrows-marina.com" >Narrows Marina</a> - Glen Lake Boat Rentals (Pontoon, Ski, Sail)</li>
+											<li><a href="http://www.sunsetwatersports.com" >Sunset Water Sports</a> - All Lakes rentals. (Pontoon, Ski, Jetski, Mopeds)</li>
+											<li><a href="http://www.crystalriveroutfitters.com" >Crystal River Outfitters</a> - Canoe or Kayak on Crystal River!</li>
+											
+										</ul>
+									</div>
+                  <div id="stretcher-rightboating" class="boating">
+										<img src="images/boating.jpg" />
+									</div>
+									
+									
+								</div>
+								
+								<!--<div class="stretcher">
+									<h4>Beaches</h4>
+									<ul class="beaches">
+										<li><a href="#" ></a>Coming Soon</li>
+									</ul>
+								</div>-->
+								
+								<!--<div class="stretcher">
+									<h4>Mackinac Island</h4>
+									<ul class="mackinac">
+								  		<li><a href="#" ></a>Coming Soon</li>
+									</ul>
+								</div>-->
+							<!--	<div class="stretcher">
+
+									<h4>Shopping</h4>
+
+									<ul class="dining">
+
+										<li><a href="#" ></a>Front Street in Traverse City</li>
+
+										<li><a href="#" ></a>Glen Arbor</li> 
+
+										<li><a href="#" ></a>Suttons Bay</li>
+
+										<li><a href="#" ></a>Leland</li>
+
+									</ul>
+
+								</div> -->
+
+								<div class="stretcher">
+									<div id="stretcher-right">
+										<img src="images/outdoors2.jpg" />
+										<h3>Biking</h3>
+										<ul class="golf">
+											<li><a href="http://www.leelanau.com/outdoors/geo/">Geo Bikes</a> - Bike rentals in Leland!</li>
+											<li><a href="http://www.crystalriveroutfitters.com/bike_rentals.asp" >Crystal River Outfitters</a> - Bike rentals in Glen Arbor!</li>
+											<li><a href="http://www.mapmyride.com/find-ride/united-states/mi/leland" >Bike Routes</a> - Try these road bike routes for some views of northern Michigan!</li>
+											<li><a href="http://www.trails.com/activity.aspx?area=11229#trailid=BGM057-031&lat=44.71556&lon=-85.84972&zoom=8&m=terrain&a=MB" >Mountain Bike Trails</a> - Northern Michigan is full of Mountain bike trails!</li>
+											
+										</ul>			
+									
+																			</div>
+									<div id="stretcher-right">
+										
+										<h3>Hiking</h3>
+										<ul class="golf">
+											<li><a href="http://www.michigantrails.us/leelanau-county-michigan/leelanau-county-michigan-trails.html" >Hiking Trails Near Leland</a> - Great Hiking is just minutes away from Leland!</li>
+											<li><a href="http://www.visitupnorth.com/blog/state-parks/">State Parks</a> - A number of state parks are withing driving distance of Leland.</li>
+										</ul>
+										
+										<h3>Climb the Dunes</h3>
+										<ul class="golf">
+											<li><a href="http://www.sleepingbeardunes.com/" >Sleeping Bear Dunes</a> - Climbing the dunes is a fun way to spend a day.  The sand is steep, but the view from the top is amazing.  Can you make it all the way to the lake??</li>
+										</ul>
+										<img src="images/outdoors1.jpg" />
+																				
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</span>
+			</div>
+		
+			<!-- ====== Navigation ====== -->
+
+			<div id="navigation"><a href="ourstory.html" title="Our Story" alt="Our Story" class="nav">
+				<h2>our story</h2></a><a href="wedding.html" title="The Wedding" alt="The Wedding" class="nav" >
+				<h2>the wedding</h2></a><a href="stay.html" title="Where to Stay" alt="Where to Stay" class="nav">
+				<h2>where to stay</h2></a><a href="do.html" class="current" title="What to do" alt="What to do" class="nav">
+				<h2>what to do</h2></a>
+			</div>
+
+			<!-- ====== Footer ====== -->
+
+			<div id="footer">
+				<p>Copyright &#169; <a href="http://www.spicyfishy.com" alt="spicyfishy">Jewsbury &amp; Korroch</a> 2009-2010</p>
+			</div>
+			
+		</div>
+	<div id="mktipmsg" class="mktipmsg" >
+			</div>
+		<!-- ====== Scripts ====== -->			
+
+		<script type="text/javascript"> 
+			Cufon.now(); 
+		</script>
+		
+		<script type="text/javascript">
+			Element.cleanWhitespace('content2');
+			init();
+		</script>
+		
+		<!-- Google Analytics -->
+		<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+			try {
+			var pageTracker = _gat._getTracker("UA-6784373-4");
+			pageTracker._trackPageview();
+			} catch(err) {}
+		</script>
+
+	</body>
+
+</html>

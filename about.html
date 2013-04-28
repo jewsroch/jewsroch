@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+		<title>Kate and Chad's Wedding!</title>
+		<link href="css/main.css" rel="stylesheet" type="text/css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+		<script src="js/cufon-yui.js" type="text/javascript"></script>
+		<script src="js/champagne_300-champagne_700.font.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			Cufon.replace('h1, h2, h3, h4, .nav', {hover: true});
+		</script>
+		<script type="text/javascript" src="js/prototype.lite.js"></script>
+		<script type="text/javascript" src="js/moo.fx.js"></script>
+		<script type="text/javascript" src="js/moo.fx.pack.js"></script>
+		<script type="text/javascript">
+		//the main function, call to the effect object
+		/*
+		function init(){
+			var stretchers = document.getElementsByClassName('stretcher'); //div that stretches
+			var toggles = document.getElementsByClassName('tab'); //h3s where I click on
+			//accordion effect
+			var myAccordion = new fx.Accordion(
+				toggles, stretchers, {opacity: false,  height: true, duration: 400, transition: fx.sineInOut}
+			);
+			//hash functions
+			var found = true; // if true, accordion starts closed on load else if false first one starts open on load
+			toggles.each(function(h3, i){
+			var div = Element.find(h3, 'nextSibling'); //element.find is located in prototype.lite
+				if (window.location.href.indexOf(h3.title) > 0) {
+					myAccordion.showThisHideOpen(div);
+					found = true;
+				}
+			});
+			if (!found) myAccordion.showThisHideOpen(stretchers[0]);
+		}
+		*/
+		
+		function init(){
+				
+				var stretchers = document.getElementsByClassName('stretcher'); //div that stretches
+				var toggles = document.getElementsByClassName('tab'); //h3s where I click on
+		
+				//accordion effect
+				var myAccordion = new fx.Accordion(
+					toggles, stretchers, {opacity: true, height: true, duration: 400}
+				);
+		
+				//hash functions
+				var found = false;
+				toggles.each(function(h3, i){
+					var div = Element.find(h3, 'nextSibling'); //element.find is located in prototype.lite
+					if (window.location.href.indexOf(h3.title) > 0) {
+						myAccordion.showThisHideOpen(div);
+						found = true;
+					}
+				});
+				if (!found) myAccordion.showThisHideOpen(stretchers[0]);
+			}
+		
+		</script>
+		
+	</head><!-- ====== Body Content ====== -->
+	<body>
+		<div id="maincontainer">		
+			
+			<!-- ====== Header ====== -->
+			<div id="header">
+				<div id="bannerLeft"><a href="index.html" title="Home" alt="Home Page"><img src="images/wedding.png" alt="Kate and Chad's Wedding" /></a>
+				</div>
+				<div id="bannerRight"><img src="images/date.png" alt="Wedding Date" />
+					<h3><a href="contact.html" title="Contact us" alt="Contact Us">contact us</a> &nbsp;|&nbsp; <a href="directions.html" title="Directions and Maps" alt="Directions">directions</a> &nbsp;|&nbsp; <a href="registry.html" title="Registry" alt="Registry">registry</a></h3>
+				</div>
+			</div>
+			
+			<!-- ====== Content ====== -->
+			<div id="content" class="directions">
+				<span class="spacer">
+					<div id="blueBorders" >
+					</div>
+					 <div id="wrapper">
+					<h1>About Jewsroch</h1>
+					<h2 class="about" style="margin-top:15px"><span class="red">Jews</span>bury + Kor<span class="red">roch</span> = <span class="red">Jewsroch</span></h2>
+					<h2 class="about">This site was designed and hand coded by Chad Jewsbury using:<br/> 
+					<span class="about">	HTML/CSS & Javascript (moo tools, jquery, prototype )   <br/>
+             Adobe Photoshop & Adobe Illustrator<br/> Espresso (Macintosh) & PSPad (Windows)</span></h2> 
+         	<h2 style="margin-top:15px">This site is best viewed in <br/><a href="http://www.firefox.com" class="red">Firefox</a>, <a href="http://www.apple.com/safari" class="red">Safari</a>, or <a href="http://www.google.com/chrome" class="red">Chrome</a>. <br/></h2><h3 style="margin-top:15px">Please contact me: <strong class="red">chadjewsbury at gmail dot com</strong>.  </h3>
+            </div> 
+					</span>
+			</div>										
+			<!-- ====== Navigation ====== -->
+			<div id="navigation"><a href="ourstory.html" title="Our Story" alt="Our Story" class="nav">
+				<h2>our story</h2></a><a href="wedding.html" title="The Wedding" alt="The Wedding" class="nav">
+				<h2>the wedding</h2></a><a href="stay.html" title="Where to Stay" alt="Where to Stay" class="nav">
+				<h2>where to stay</h2></a><a href="do.html" title="What to do" alt="What to do" class="nav">
+				<h2>what to do</h2></a>
+			</div>
+		
+			<!-- ====== Footer ====== -->
+			<div id="footer">
+				<p><a href="http://jewsroch.com/about.html" alt="About Jewsroch">About </a>| Copyright &#169; <a href="http://www.spicyfishy.com" alt="spicyfishy">Jewsbury &amp; Korroch</a> 2009-2010</p>
+			</div>
+		</div>
+		
+		<!-- ====== Scripts ====== -->
+		<script type="text/javascript"> 
+			Cufon.now(); 
+		</script>
+		<script type="text/javascript">
+		Element.cleanWhitespace('content2');
+		init();
+		</script>
+		
+		<!-- Google Analytics -->
+		<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+			try {
+			var pageTracker = _gat._getTracker("UA-6784373-4");
+			pageTracker._trackPageview();
+			} catch(err) {}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,63 @@
+stay.html
+Fix Capital letter - headers 
+add more budget options
+add map links to addresses
+
+do.html
+Change Leland Dining to Leland with Dining and Info sections.
+Same with Glen Arbor and Traverse City
+Wine- Add more wine links | Change icon to glass
+Boating - Add links and icon | Use a Picture
+Beaches - Link and Map to local beaches | icon?
+Mackinac Island - Pictures and links
+Shopping - Make links - add descriptions.
+Outdoors 
+-Dunes - http://www.sleepingbeardunes.com/, 
+-Hiking - http://www.traversetrails.org/  http://www.explorenorthernmichigan.com/things_to_do/recreation/hiking_&_biking.html  Manitou islands,  whaleback hiking.   
+-Fishing -?? 
+-Biking - ??  
+-Camping - ??.
+
+ourstory.html
+Timeline and or Pictures with Dates.  
+Different Layout. 
+Chad likes computers, music, and relaxing.  Kate likes art, wine, and smiling.  They both like to travel and laugh.  
+Kate was born in Hollywood (florida).  Chad was born in Bloomington (indiana).  They were both played the piano and pestered their sisters when they were little.  
+Kate's sister is 6 years younger than her.  Chad's sister is 6 years older than him.  Their sisters have the same birthday.  
+Their Moms' birthdays are both on the 18th (but different months).  Their Dads' birthdays are both on the 2nd (but different months).
+Kate's family used to have a dog named Shadow.  Now they call Chad, Chadow.  Chad's family has a dog named Molly.  Kate's sister's name is also Molly.  
+Kate and Chad both went to IU.  They both lived in the same dorm freshman year.  All of their friends were friends but they never met until Senior year.  
+Chad asked Kate to be his girlfriend while rowing a canoe in Indiana.  They also got engaged on a boat - but it was bigger than a canoe - and in Malaysia. 
+Chad found the ring in Thailand.  He had help from an African Gem trader named Sisqo (no joke!).  
+Kate and Chad lived 8 hours apart after college (St. Paul / Chicago).  Then they lived 28 hours apart (Aspen / Chicago).  Now they're never apart (in Korea).  
+Kate used to be a vegetarian.  Chad didn't like vegetables when he was little.  He'd spit out the Gerber peas as a baby.
+Kate likes to run.  Chad likes to ride bikes.  They both like swim. 
+FIX IE6 SPACING ISSUE
+FIX IMAGE SPACING
+FIX Navigation Alignment
+FIX Hover color ??
+Change to Images instead of text... :(
+
+
+
+
+Wedding Day - Change to "the wedding"? 
+(Rehearsal Dinner
+-location
+-time
+-who)
+Welcome Party
+-location
+-time
+-description
+-who
+Ceremony
+-Bridal Party 
+-Location
+-Minister
+-Dress
+-Time
+Reception
+-Location
+-Events
+-Music suggestions

@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Flickr Like Image Preview</title>
+<script src="lib/prototype.js" type="text/javascript"></script>
+<script src="lib/effects.js" type="text/javascript"></script>
+<script src="lib/carousel.js" type="text/javascript"></script>
+<link href="prototype-ui.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body{font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+</style>
+</head>
+
+<body>
+<div id="horizontal_carousel">  
+  <div class="previous_button"></div>
+  <div class="container">
+    <ul>
+      <li><img alt="Picture 1" src="img/img_1.jpg" /></li>
+      <li><img alt="Picture 2" src="img/img_2.jpg" /></li>
+      <li><img alt="Picture 3" src="img/img_3.jpg" /></li>
+      <li><img alt="Picture 4" src="img/img_4.jpg" /></li>
+      <li><img alt="Picture 5" src="img/img_5.jpg" /></li>
+      <li><img alt="Picture 6" src="img/img_6.jpg" /></li>
+      <li><img alt="Picture 7" src="img/img_7.jpg" /></li>
+      <li><img alt="Picture 8" src="img/img_8.jpg" /></li>
+      <li><img alt="Picture 9" src="img/img_9.jpg" /></li>
+      <li><img alt="Picture 10" src="img/img_10.jpg" /></li>
+    </ul>
+  </div>  
+  <div class="next_button"></div>
+
+  
+</div>
+<script type="text/javascript">
+// <![CDATA[
+  function runTest() {
+    hCarousel = new UI.Carousel("horizontal_carousel");
+  }
+  Event.observe(window, "load", runTest);
+// ]]>
+</script>
+</body>
+</html>
